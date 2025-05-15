@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Add additional weights and styles as needed */
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: 'Poppins', sans-serif;
+}
+
+@layer components {
+  .glassmorphism {
+    @apply bg-slate-200 bg-opacity-5 backdrop-filter backdrop-blur-sm border border-white border-opacity-20 shadow-white/10 shadow-sm;
+  }
+
+  .btn-primary {
+    @apply bg-white text-black shadow-teal-400/20 shadow-lg px-6 py-2 rounded-full font-semibold transition duration-300 hover:bg-opacity-80 hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border border-white text-white px-6 py-2 rounded-full font-semibold transition duration-300 hover:bg-white hover:text-black hover:scale-105;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold text-center mb-12 relative;
+  }
+
+  .section-title::after {
+    content: "";
+    @apply absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-white mt-2;
+  }
+}
+
