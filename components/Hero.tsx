@@ -20,7 +20,7 @@ const Hero = () => {
         <p className="text-xl mb-8 max-w-2xl mx-auto animate-fade-in-up animation-delay-300">
           From music production to distribution and marketing, we bring your creative visions to life.
         </p>
-        <Link href="#features" className="btn-primary animate-fade-in-up animation-delay-600">
+        <Link href="/artists" className="btn-primary animate-fade-in-up animation-delay-600">
           Explore Our Artists
         </Link>
       </div>
