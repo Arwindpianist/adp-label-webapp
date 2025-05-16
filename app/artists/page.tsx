@@ -20,7 +20,7 @@ const artistsData = [
   { name: "Arwindpianist", id: "2xonhkICwITCbO5X4IRoeA", description: "Founder and lead artist of Arwindpianist Studios, known for his exceptional piano compositions.", email: "arwin@arwindpianist.store" },
   { name: "raynnaxx", id: "4pdqfE6c3OAlNZ2U6r0BFy", description: "A rising star with a unique voice and captivating performances.", email: "raynnaxx@gmail.com" },
   { name: "arwin", id: "5X8slCGKlv8xjHUIFFgQR4", description: "A versatile artist blending traditional and modern music styles.", email: "arwin@arwindpianist.store" },
-  { name: "Jeevy", id: null, description: "An innovative artist pushing the boundaries of music production.", email: "jeevymusic1@gmail.com" },
+  { name: "Jeevy", id: "78kn0YoZmk69ARkLl5ZP19", description: "An innovative artist pushing the boundaries of music production.", email: "jeevymusic1@gmail.com" },
   { name: "etharessh", id: null, description: "A talented artist with a passion for creating soulful melodies.", email: "haressh25@gmail.com" },
 ];
 
